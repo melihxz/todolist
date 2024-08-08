@@ -1,0 +1,49 @@
+/* src/styles/TaskList.css */
+.task-list {
+    margin: 0;
+    padding: 10px;
+    background-color: var(--task-list-bg);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .task-list .task-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--task-item-bg);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-list .task-item:hover {
+    background-color: var(--task-item-hover-bg);
+  }
+  
+  .task-list .add-task {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .task-list .add-task input {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .task-list .add-task button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list .add-task button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,18 @@
+/* src/styles/TaskItem.css */
+.task-item.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .task-item .delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .task-item .delete-btn:hover {
+    text-decoration: underline;
+  }
+  
